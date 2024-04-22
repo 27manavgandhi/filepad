@@ -17,10 +17,6 @@ This project showcases a File Explorer & Editor developed using React, adhering 
 - [ ] Open Local File
 - [ ] Open Local Folder
 
-## Authors
-
-- [@jhasuraj01](https://www.github.com/jhasuraj01)
-
 
 ## Tech Stack
 
