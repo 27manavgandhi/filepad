@@ -11,13 +11,8 @@ export function AboutAppWrapper({ className }: AboutAppWrapperProps) {
     <div className={`${className || ''} ${style.container}`}>
       <img src={Poster} width={2048} height={1151} alt="" style={{ maxWidth: 'min(600px, 95%)' }} />
       <div className={style.badges}>
-        <img src='https://img.shields.io/github/license/jhasuraj01/filepad?color=blue' alt='license' />
-        <img src='https://img.shields.io/github/stars/jhasuraj01/filepad' alt='stars' />
-        <img src='https://img.shields.io/github/last-commit/jhasuraj01/filepad?color=blue' alt='last-commit' />
-        <img src='https://img.shields.io/github/languages/top/jhasuraj01/filepad' alt='languages' />
-        <img src='https://img.shields.io/github/repo-size/jhasuraj01/filepad' alt='repo-size' />
+       
       </div>
-      <p>Github Repo: <a href="https://github.com/jhasuraj01/filepad" target="_blank" rel="noopener noreferrer">github.com/jhasuraj01/filepad</a></p>
       <h1>
         <FilePadIcon width={44} height={44} style={{ float: 'left', marginRight: '8px' }} />
         <span>FilePad: File Explorer & Editor</span>
@@ -46,7 +41,6 @@ export function AboutAppWrapper({ className }: AboutAppWrapperProps) {
       </ul>
       <h3>Authors:</h3>
       <ul style={{ listStyle: 'none' }}>
-        <li><a href='https://github.jhasuraj.com/' target='_blank' rel='noopener noreferrer'>@jhasuraj01</a></li>
       </ul>
       {/* <h3>References:</h3>
       <ul>
